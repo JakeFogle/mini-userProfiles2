@@ -7,5 +7,7 @@ app.controller('MainController', function($scope, mainService) {
   		$scope.users = response.data.data;
   	});
   }
+  
   $scope.getUsers();
+
 });
